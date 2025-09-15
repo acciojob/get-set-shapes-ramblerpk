@@ -5,15 +5,15 @@ class Rectangle {
 		this._height = height;
 	}
 	get width() {
-		return `${this._width}`;
+		return this._width;
 	}
 }
 	get height() {
-		return `${this._height}`;
+		return this._height;
 	}
 
 get Area() {
-	return `${this._width}` * `${this._height}`;
+	return this._width * this._height;
 }
 }
 
@@ -23,7 +23,7 @@ class Square extends Animal {
 		super(side,side);
 	}
 	get Perimeter() {
-		return 4 *`${this.width`;
+		return 4 * this.width;
 	}
 	
 }
